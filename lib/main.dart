@@ -1,6 +1,4 @@
-import 'package:apipractice/screens/Comments.dart';
-import 'package:apipractice/screens/Post.dart';
-import 'package:apipractice/screens/Todo.dart';
+import 'package:apipractice/screens/Albums.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Todo(),
+      home: const Albums(),
     );
   }
 }
